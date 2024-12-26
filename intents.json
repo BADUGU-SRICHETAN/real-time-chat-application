@@ -1,0 +1,286 @@
+[
+    {
+        "tag": "greetings",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "Good morning",
+            "Good evening",
+            "How are you?",
+            "What's up?"
+        ],
+        "responses": [
+            "Hi there! How can I assist you with your career choices?",
+            "Hello! Ready to explore your career options?",
+            "Hey! What career questions can I answer for you today?",
+            "Good day! How may I guide you today?",
+            "Hi! Let’s find the best path for your future."
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care",
+            "Catch you later",
+            "Talk to you soon"
+        ],
+        "responses": [
+            "Goodbye! Have a great day ahead!",
+            "See you later! Feel free to reach out anytime.",
+            "Take care and stay safe!",
+            "Bye for now! Looking forward to our next chat.",
+            "Catch you later! All the best!",
+            "Goodbye! Wishing you all the success!"
+        ]
+    },    
+    {
+        "tag": "thank_you",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "That's helpful",
+            "I appreciate it",
+            "You’ve been a great help"
+        ],
+        "responses": [
+            "You're welcome! Happy to help.",
+            "Glad I could assist you! Do let me know if you have more questions.",
+            "Anytime! Your career success is my goal.",
+            "It’s my pleasure. Let me know how else I can help."
+        ]
+    },
+    { "tag": "name", 
+    "patterns": ["What's your name?", "Who are you?", "Your name please"], 
+    "responses": ["I'm your real-time chat assistant!", "I'm chatbot, your chat companion!", "You can call me your assistant!"]
+    },
+    { "tag": "hours", 
+    "patterns": ["What are your hours?", "When are you available?", "Your working hours?"],
+     "responses": ["I'm available 24/7!", "I’m here whenever you need me!", "I'm always ready to chat!"] 
+    },
+    { "tag": "help",
+     "patterns": ["I need help", "Can you help me?", "Need assistance"],
+      "responses": ["Sure, what do you need help with?", "Absolutely, how can I assist you?", "I'm here to help, what do you need?"]
+    },
+    { "tag": "jokes",
+     "patterns": ["Tell me a joke", "Make me laugh", "I want to hear a joke"],
+      "responses": ["Why don’t scientists trust atoms? Because they make up everything!", "Why was the math book sad? It had too many problems.", "Why can’t you give Elsa a balloon? Because she’ll let it go."]
+    },
+    { "tag": "weather",
+      "patterns": ["What's the weather like?", "Tell me the weather", "Weather update"],
+      "responses": ["Let me check that for you!", "I’ll find the latest weather update for you.", "Checking the weather for you!"]
+    },
+    { "tag": "news",
+      "patterns": ["What's the news?", "Tell me the latest news", "News update"],
+      "responses": ["Let me get the latest news for you!", "Finding the current news updates for you.", "Here’s the latest news!"]
+    },
+    { "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time"],
+      "responses": ["It's time to get a watch! Just kidding, let me check.", "It’s time to find out the time!", "I’ll get the current time for you."]
+    },
+    { "tag": "date",
+      "patterns": ["What's the date?", "Tell me today's date", "Current date"],
+      "responses": ["Checking today's date for you!", "I’ll find the current date.", "Let me get the date for you."]
+    },
+    { "tag": "day",
+      "patterns": ["What day is it?", "Tell me the day", "Current day"],
+      "responses": ["Today is a beautiful day! Let me check which one.", "I’ll get the current day for you.", "Let me find out what day it is."]
+    },
+    { "tag": "location",
+      "patterns": ["Where are you?", "Your location?", "Where do you stay?"],
+      "responses": ["I exist in the digital world!", "I’m right here with you, virtually!", "I’m just a message away, anywhere!"]
+    },
+    { "tag": "favorite_food",
+      "patterns": ["What's your favorite food?", "Your favorite dish?", "What do you like to eat?"],
+      "responses": ["I don't eat, but I imagine pizza is great!", "I’ve heard sushi is amazing, but I can't try it!", "Food is fascinating, though I can't taste it!"]
+    },
+    { "tag": "favorite_color",
+      "patterns": ["What's your favorite color?", "Your favorite color?", "What color do you like?"],
+      "responses": ["I think blue is quite calming.", "Green is the color of nature, so I’d pick that.", "Colors are so vibrant, aren’t they?"]
+    },
+    { "tag": "age",
+      "patterns": ["How old are you?", "Your age?", "When were you created?"],
+      "responses": ["Age is just a number, and I don't have one!", "I’m as old as the latest update.", "I was created to help, no matter the age!"]
+    },
+    { "tag": "hobbies",
+      "patterns": ["What are your hobbies?", "Do you have any hobbies?", "What do you like to do?"],
+      "responses": ["I love learning new things!", "Helping people is my favorite pastime.", "Chatting with you is what I enjoy!"]
+    },
+    { "tag": "movies",
+      "patterns":["Recommend a movie", "Good movies to watch?", "Any movie suggestions?"],
+      "responses": ["How about ‘Inception’? It’s a mind-bender!", "‘The Shawshank Redemption’ is a classic!", "Ever seen ‘The Matrix’? It’s a must-watch! "]
+    },
+    { "tag": "music",
+      "patterns": ["Recommend a song", "Good music?", "Any song suggestions?"],
+      "responses": ["‘Bohemian Rhapsody’ by Queen is timeless!", "Try ‘Imagine’ by John Lennon.", "‘Hotel California’ by The Eagles is a classic."]
+    },
+    { "tag": "books",
+      "patterns": ["Recommend a book", "Good books to read?", "Any book suggestions?"],
+      "responses": ["‘1984’ by George Orwell is a must-read!", "Try ‘To Kill a Mockingbird’ by Harper Lee.", "‘The Great Gatsby’ by F. Scott Fitzgerald is great."]
+    },
+    { "tag": "sport",
+      "patterns": ["What's your favorite sport?", "Do you like sports?", "Tell me a sport"],
+      "responses": ["I enjoy learning about different sports!", "Football is fascinating with its global appeal.", "Cricket is very popular in many countries."]
+    },
+    { "tag": "hobbies_suggestion",
+      "patterns": ["Suggest a hobby", "New hobby ideas?", "What hobby should I pick?"],
+      "responses": ["How about painting? It's very relaxing.", "Try gardening! It’s rewarding to see things grow.", "Reading is always a great hobby."]
+    },
+    { "tag": "pets",
+      "patterns": ["Do you have pets?", "What's your favorite animal?", "Tell me about pets"],
+      "responses": ["I don’t have pets, but dogs seem adorable!", "Cats are very independent creatures.", "Pets bring a lot of joy and companionship."]
+    },
+    { "tag": "programming",
+      "patterns": ["Do you code?", "What's your favorite programming language?", "Tell me about coding"],
+      "responses": ["I interact with code every day!", "Python is very versatile and beginner-friendly.", "Coding can be very empowering and creative."]
+    },
+    { "tag": "technology",
+      "patterns": ["Tell me about technology", "What's new in tech?", "Technology trends?"],
+      "responses": ["AI and Machine Learning are transforming the world!", "Blockchain technology is revolutionizing industries.", "5G is making fast and reliable internet more accessible."]
+    },
+    { "tag": "future",
+      "patterns": ["What does the future hold?", "Tell me about the future", "Future predictions?"],
+      "responses": ["The future is full of possibilities and innovations!", "Advancements in tech will continue to shape our lives.", "Sustainability will be key in the future."]
+    },
+    { "tag": "inspiration",
+      "patterns": ["Inspire me", "Give me some motivation", "Inspirational quotes?"],
+      "responses": ["Believe in yourself and all that you are.", "The best way to predict the future is to create it.", "Success is not final, failure is not fatal: It is the courage to continue that counts."]
+    },
+    { "tag": "career",
+      "patterns": ["What career should I choose?", "Career advice?", "Help me with career choices"],
+      "responses": ["Follow your passion and skills.", "Consider fields that align with your interests.", "Explore different career paths to find what excites you."]
+    },
+    { "tag": "wellbeing",
+      "patterns": ["How to stay healthy?", "Wellbeing tips?", "How to improve my health?"],
+      "responses": ["Regular exercise and a balanced diet are key.", "Mental health is as important as physical health.", "Stay hydrated and get enough sleep."]
+    },
+    { "tag": "fun_facts",
+     "patterns": ["Tell me a fun fact", "Interesting fact", "Do you know any fun facts?"],
+      "responses": ["Did you know honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!", "Octopuses have three hearts!", "Bananas are berries, but strawberries aren't."]
+    },
+    { "tag": "fitness",
+      "patterns": ["How to stay fit?", "Fitness tips?", "Help me with fitness"],
+      "responses": ["Regular exercise and a balanced diet are crucial.", "Consistency is key to fitness.", "Find an activity you enjoy to stay motivated."]
+    },
+    { "tag": "diet",
+      "patterns": ["What should I eat?", "Diet tips?", "Healthy diet advice"],
+      "responses": ["Incorporate a variety of fruits and vegetables.", "Stay hydrated and avoid processed foods.", "Balance is crucial – aim for a mix of protein, carbs, and fats."]
+    },
+    { "tag": "stress", 
+      "patterns": ["How to manage stress?","Stress relief tips?", "Help me with stress"],
+      "responses": ["Practice mindfulness and meditation.", "Regular physical activity can reduce stress.", "Ensure you get enough sleep and take breaks."]
+    },
+    { "tag": "relaxation",
+      "patterns": ["How to relax?", "Relaxation techniques?", "Help me relax"],
+      "responses": ["Try deep breathing exercises.", "Engage in hobbies you enjoy.", "Listening to calming music can help you relax."]
+    },
+    { "tag": "sleep",
+      "patterns": ["How to improve sleep?", "Sleep tips?", "Better sleep advice"],
+      "responses": ["Maintain a regular sleep schedule.", "Create a restful environment and avoid screens before bed.", "Consider a relaxing pre-sleep routine like reading or a warm bath."]
+    },
+    { "tag": "motivation",
+      "patterns": ["How to stay motivated?", "Motivation tips?", "Help me with motivation"],
+      "responses": ["Set achievable goals and celebrate small victories.", "Keep reminding yourself of the bigger picture.", "Find a support system or community."]
+    },
+    { "tag": "productivity",
+      "patterns": ["How to be more productive?", "Productivity tips?", "Increase productivity advice"],
+      "responses": ["Prioritize tasks and break them into smaller steps.", "Use tools like to-do lists and timers.", "Take regular breaks to maintain focus."]
+    },
+    { "tag": "learning",
+      "patterns": ["How to learn better?", "Learning tips?", "Effective learning techniques"],
+      "responses": ["Practice active learning through teaching or discussion.", "Break study sessions into manageable chunks.", "Use multiple sources and methods to understand the material."]
+    },
+    { "tag": "memory",
+      "patterns": ["How to improve memory?", "Memory tips?", "Better memory advice"],
+      "responses": ["Stay mentally active through puzzles and games.", "Get plenty of sleep and eat a healthy diet.", "Stay organized and use visualization techniques."]
+    },
+    { "tag": "languages",
+      "patterns": ["How to learn a new language?", "Language learning tips?", "Help me learn a language"],
+      "responses": ["Immerse yourself in the language through media and conversation.", "Practice regularly and consistently.", "Use language learning apps and flashcards."]
+    }, 
+    { "tag": "travel",
+      "patterns": ["Travel tips?", "How to travel better?", "Travel advice"],
+      "responses": ["Plan ahead but stay flexible.", "Learn basic phrases of the local language.", "Pack light and keep important documents handy."]
+    },
+    { "tag": "finances",
+      "patterns": ["How to manage money?", "Financial tips?", "Help with budgeting"],
+      "responses": ["Create and stick to a budget.", "Save regularly, even if it's a small amount.", "Avoid unnecessary debt and prioritize expenses."]
+    }, 
+    { "tag": "investing", 
+      "patterns": ["How to start investing?", "Investing tips?", "Beginner investing advice"],
+      "responses": ["Start with understanding the basics of investing.", "Diversify your investments.", "Consider your risk tolerance and long-term goals."]
+    }, 
+    { "tag": "relationships", 
+      "patterns": ["How to maintain relationships?", "Relationship tips?", "Help with relationships"],
+      "responses": ["Communicate openly and honestly.", "Show appreciation and make time for each other.", "Work through conflicts calmly and respectfully."]
+    }, 
+    { "tag": "self_improvement", 
+      "patterns": ["How to improve myself?", "Self-improvement tips?", "Personal growth advice"],
+      "responses": ["Set realistic goals and work towards them.", "Reflect regularly on your progress and areas for growth.", "Seek feedback and learn from it."]
+    },
+    { "tag": "confidence", 
+      "patterns": ["How to boost confidence?", "Confidence tips?", "Help with self-esteem"],
+      "responses": ["Focus on your strengths and achievements.", "Practice positive self-talk.", "Set and achieve small goals to build confidence."]
+    }, 
+    { "tag": "communication", 
+      "patterns": ["How to communicate better?", "Communication tips?", "Effective communication advice"],
+      "responses": ["Listen actively and without interrupting.", "Be clear and concise in your messages.", "Use positive body language and tone."]
+    }, 
+    { "tag": "creativity",
+      "patterns": ["How to be more creative?", "Creativity tips?", "Boost creativity advice"],
+      "responses": ["Engage in different activities and experiences.", "Take breaks and allow your mind to wander.", "Collaborate with others and get different perspectives."]
+    },
+    { "tag": "negotiation",
+      "patterns": ["How to negotiate?", "Negotiation tips?", "Effective negotiation advice"],
+      "responses": ["Prepare thoroughly and know your goals.", "Listen actively and understand the other party's position.", "Aim for a win-win outcome."]
+    }, 
+    { "tag": "public_speaking", 
+      "patterns": ["How to improve public speaking?", "Public speaking tips?", "Help with public speaking"],
+      "responses": ["Practice regularly in front of an audience.", "Know your material well.", "Engage with your audience and use visual aids."]
+    },
+    { "tag": "time_management", 
+      "patterns": ["How to manage time?", "Time management tips?", "Effective time management advice"],
+      "responses": ["Prioritize tasks and set clear goals.", "Break tasks into smaller, manageable parts.", "Use tools like calendars and to-do lists."]
+    }, 
+    { "tag": "work_life_balance", 
+      "patterns": ["How to balance work and life?", "Work-life balance tips?", "Help with work-life balance"],
+      "responses": ["Set boundaries and stick to them.", "Make time for activities you enjoy.", "Prioritize your health and well-being."]
+    }, 
+    { "tag": "teamwork", 
+      "patterns": ["How to work in a team?", "Teamwork tips?", "Effective teamwork advice"],
+      "responses": ["Communicate openly and regularly.", "Respect and value each team member's contributions.", "Work towards common goals and support each other."]
+    }, 
+    { "tag": "leadership", 
+      "patterns": ["How to be a good leader?", "Leadership tips?", "Help with leadership skills"], 
+      "responses": ["Lead by example and show integrity.", "Communicate your vision clearly.", "Empower and support your team."] 
+    }, 
+    { "tag": "networking", 
+      "patterns": ["How to network?", "Networking tips?", "Effective networking advice"],
+      "responses": ["Be genuine and build relationships.", "Attend events and connect with people in your field.", "Follow up and maintain connections."]
+    }, 
+    { "tag": "entrepreneurship", 
+      "patterns": ["How to start a business?", "Entrepreneurship tips?", "Help with starting a business"],
+      "responses": ["Research your market and create a solid business plan.", "Stay adaptable and open to feedback.", "Build a strong network and seek mentorship."]
+    }, 
+    { "tag": "personal_branding", 
+      "patterns": ["How to build a personal brand?", "Personal branding tips?", "Help with personal branding"],
+      "responses": ["Define your unique value and message.", "Be consistent across all platforms.", "Engage with your audience and provide value."]
+    }, 
+    { "tag": "job_search", 
+      "patterns": ["How to find a job?", "Job search tips?", "Effective job search advice"],
+      "responses": ["Tailor your resume and cover letter to each job.", "Network and use job search platforms.", "Prepare thoroughly for interviews."] 
+    }, 
+    { "tag": "resume", 
+      "patterns": ["How to write a resume?", "Resume writing tips?", "Help with resume writing"],
+      "responses": ["Highlight your achievements and skills.", "Keep it concise and relevant.", "Use clear formatting and proofread for errors."]
+    }, 
+    { "tag": "interview", 
+      "patterns": ["How to prepare for an interview?", "Interview tips?", "Help with interview preparation"],
+      "responses": ["Research the company and role.", "Practice common interview questions.", "Dress appropriately and be punctual."]
+    } 
+                                                                        
+]   
+
