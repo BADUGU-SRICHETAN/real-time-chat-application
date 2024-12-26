@@ -1,4 +1,4 @@
-# real-time-chat-application
+
 # Real-Time Chat Application
 
 This project is a real-time chat application that leverages Natural Language Processing (NLP) to understand and respond to user queries instantly. Built with Streamlit, the application provides an interactive web interface to ensure seamless and dynamic communication.
