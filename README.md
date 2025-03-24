@@ -41,7 +41,7 @@ sh
 streamlit run app.py
 Open your browser and navigate to:
 
-http://localhost:8501
+http://192.168.0.13:8501
 Project Structure
 app.py: Main application file containing the Streamlit app logic.
 
